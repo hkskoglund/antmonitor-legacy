@@ -1,0 +1,28 @@
+{
+  "name": "antmonitor",
+  "version": "1.2.4",
+  "description": "Monitor and visualize ANT+ wireless sensors, its a chrome packaged app",
+  "main": "scripts/background.js",
+  "dependencies": {
+    "knockout": "^3.2.0",
+    "requirejs": "^2.1.22",
+    "highcharts-release": "^4.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ant",
+    "ant+",
+    "wireless",
+    "sensor",
+    "USB",
+    "heartrate",
+    "temperature",
+    "speed",
+    "cadence"
+  ],
+  "author": "Henning Knut Skoglund",
+  "license": "MIT"
+}

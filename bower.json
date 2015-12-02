@@ -1,0 +1,32 @@
+{
+  "name": "ANTmonitor",
+  "version": "1.2.3",
+  "homepage": "https://github.com/hkskoglund/antmonitor",
+  "authors": [
+    "Henning Knut Skoglund <hkskoglund@gmail.com>"
+  ],
+  "description": "Monitor and visualize ANT+ wireless sensors, its a chrome packaged app",
+  "keywords": [
+    "ant",
+    "ant+",
+    "wireless",
+    "sensor",
+    "USB",
+    "heartrate",
+    "temperature",
+    "speed",
+    "cadence"
+    ],
+  "main": [
+    "bower_components/requirejs/require.js",
+    "scripts/background.js"
+  ],
+  "license": "MIT",
+
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "knockout": "~3.2.0",
+    "libant": "~0.1.2",
+    "highcharts": "~4.0.4"
+  }
+}
