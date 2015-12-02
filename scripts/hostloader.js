@@ -39,7 +39,7 @@
 
         this.requirejsConfiguration = {
 
-            baseUrl: '../bower_components/libant', // Relative to file directory
+            baseUrl: '../node_modules/libant-legacy', // Relative to file directory
 
             paths: {
 
@@ -200,4 +200,3 @@
         hostLoader.init();
 
 })(); // Enclose in separate lexical environment by convention (to not interfere with the global object/environment)
-

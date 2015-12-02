@@ -14,7 +14,7 @@
 
         var requirejsConfiguration = {
 
-            baseUrl: '../bower_components/libant',
+            baseUrl: '../node_modues/libant-legacy',
 
             paths: {
 

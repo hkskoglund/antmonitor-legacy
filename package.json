@@ -1,12 +1,17 @@
 {
-  "name": "antmonitor",
+  "name": "antmon",
   "version": "1.2.4",
   "description": "Monitor and visualize ANT+ wireless sensors, its a chrome packaged app",
   "main": "scripts/background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkskoglund/antmon-legacy.git"
+  },
   "dependencies": {
     "knockout": "^3.2.0",
     "requirejs": "^2.1.22",
-    "highcharts-release": "^4.1.9"
+    "highcharts-release": "^4.1.9",
+    "libant-legacy": "git://github.com/hkskoglund/libant-legacy.git"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,7 +26,9 @@
     "heartrate",
     "temperature",
     "speed",
-    "cadence"
+    "cadence",
+    "chrome",
+    "packaged app"
   ],
   "author": "Henning Knut Skoglund",
   "license": "MIT"
