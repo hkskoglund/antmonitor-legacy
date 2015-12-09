@@ -1,6 +1,6 @@
 {
   "name": "antmon",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Monitor and visualize ANT+ wireless sensors, its a chrome packaged app",
   "main": "scripts/background.js",
   "repository": {

@@ -14,7 +14,7 @@
 
         var requirejsConfiguration = {
 
-            baseUrl: '../node_modues/libant-legacy',
+            baseUrl: '../node_modules/libant-legacy',
 
             paths: {
 
@@ -40,10 +40,6 @@
             this.logger  = new Logger(configuration);
 
         }.bind(this));
-
-
-
-
 
     }
 
